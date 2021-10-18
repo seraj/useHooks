@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
-import { useLocalStorage, useMedia } from './';
+import useLocalStorage from './useLocalStorage';
+import useMedia from './useMedia';
 
 function useDarkMode() {
   const [enabledState, setEnabledState] = useLocalStorage<boolean>(
