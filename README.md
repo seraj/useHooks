@@ -5,7 +5,7 @@ useful reactjs hooks
 ## install
 
 ```bash
-yarn add usehooks # or npm install --save usehooks
+yarn add @svahdati/usehooks # or npm i @svahdati/usehooks
 ```
 
 ## usage
