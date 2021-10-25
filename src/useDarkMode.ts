@@ -2,18 +2,19 @@ import { useEffect } from 'react';
 import useLocalStorage from './useLocalStorage';
 import useMedia from './useMedia';
 
+const storageName = 'dark-mode';
+
 function useDarkMode() {
   const [enabledState, setEnabledState] = useLocalStorage<boolean>(
-    'dark-mode-enabled',
+    storageName,
     false
   );
-
+  const storageStored = window.localStorage.getItem(storageName);
   const prefersDarkMode = usePrefersDarkMode();
-
-  const enabled = enabledState ?? prefersDarkMode;
+  const enabled = storageStored ? enabledState : prefersDarkMode;
 
   useEffect(() => {
-    const className = 'dark-mode';
+    const className = 'dark';
     const element = window.document.body;
     if (enabled) {
       element.classList.add(className);
@@ -22,7 +23,7 @@ function useDarkMode() {
     }
   }, [enabled]);
 
-  return [enabled, setEnabledState];
+  return [enabled, setEnabledState] as const;
 }
 
 function usePrefersDarkMode() {
