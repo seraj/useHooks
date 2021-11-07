@@ -3,7 +3,7 @@
   "author": "Seraj Vahdati",
   "description": "useful Reactjs hooks",
   "repository": "https://github.com/seraj/useHooks.git",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

@@ -4,6 +4,7 @@ import useMedia from './useMedia';
 import useLockBodyScroll from './useLoclBodyScroll';
 import useTheme from './useTheme';
 import useWindowSize from './useWindowSize';
+import useDocVisible from './useDocVisible';
 
 export {
   useDarkMode,
@@ -12,4 +13,5 @@ export {
   useLockBodyScroll,
   useTheme,
   useWindowSize,
+  useDocVisible,
 };
