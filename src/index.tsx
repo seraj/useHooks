@@ -6,6 +6,7 @@ import useTheme from './useTheme';
 import useWindowSize from './useWindowSize';
 import useDocVisible from './useDocVisible';
 import isEmpty from './isEmpty';
+import uniqueArray from './uniqueArray';
 
 export {
   useDarkMode,
@@ -16,4 +17,5 @@ export {
   useWindowSize,
   useDocVisible,
   isEmpty,
+  uniqueArray,
 };
