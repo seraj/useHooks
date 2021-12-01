@@ -7,6 +7,7 @@ import useWindowSize from './useWindowSize';
 import useDocVisible from './useDocVisible';
 import isEmpty from './isEmpty';
 import uniqueArray from './uniqueArray';
+import persianSort from './persianSort';
 
 export {
   useDarkMode,
@@ -18,4 +19,5 @@ export {
   useDocVisible,
   isEmpty,
   uniqueArray,
+  persianSort,
 };
