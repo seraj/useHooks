@@ -10,6 +10,7 @@ const isEqual = (first: any, second: any) => {
   if (Array.isArray(first)) {
     return stringy(first) === stringy(second);
   }
+  return false;
 };
 
 export default isEqual;
