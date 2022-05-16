@@ -22,6 +22,7 @@ import useReducedMotion from './useReducedMotion';
 import useScrollIntoView from './useScrollIntoView/useScrollIntoView';
 import useScrollLock from './useScrollLock/useScrollLock';
 import useClipboard from './useClipboard';
+import useHash from './useHash';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -51,6 +52,7 @@ export {
   useScrollIntoView,
   useScrollLock,
   useClipboard,
+  useHash,
   isEmpty,
   uniqueArray,
   uniqueKey,
