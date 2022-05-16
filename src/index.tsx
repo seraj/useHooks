@@ -11,6 +11,7 @@ import useMediaQuery from './useMediaQuery';
 import useInterval from './useInterval';
 import useToggle, { useBooleanToggle } from './useToggle';
 import useDebaounce from './useDebaounce';
+import useClickOutside from './useClickOutside';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -29,6 +30,7 @@ export {
   useToggle,
   useBooleanToggle,
   useDebaounce,
+  useClickOutside,
   isEmpty,
   uniqueArray,
   uniqueKey,
