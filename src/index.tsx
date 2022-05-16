@@ -18,6 +18,7 @@ import useFullscreen from './useFullscreen';
 import useHotkeys from './useHotkeys';
 import useHover from './useHover';
 import useWindowEvent from './useWindowEvent';
+import useReducedMotion from './useReducedMotion';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -43,6 +44,7 @@ export {
   useHotkeys,
   useHover,
   useWindowEvent,
+  useReducedMotion,
   isEmpty,
   uniqueArray,
   uniqueKey,
