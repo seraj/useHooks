@@ -15,6 +15,7 @@ import useClickOutside from './useClickOutside';
 import useColorScheme from './useColorScheme';
 import useEventListener from './useEventListener';
 import useFullscreen from './useFullscreen';
+import useHotkeys from './useHotkeys';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -37,6 +38,7 @@ export {
   useColorScheme,
   useEventListener,
   useFullscreen,
+  useHotkeys,
   isEmpty,
   uniqueArray,
   uniqueKey,
