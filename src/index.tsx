@@ -12,6 +12,7 @@ import useInterval from './useInterval';
 import useToggle, { useBooleanToggle } from './useToggle';
 import useDebaounce from './useDebaounce';
 import useClickOutside from './useClickOutside';
+import useColorScheme from './useColorScheme';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -31,6 +32,7 @@ export {
   useBooleanToggle,
   useDebaounce,
   useClickOutside,
+  useColorScheme,
   isEmpty,
   uniqueArray,
   uniqueKey,
