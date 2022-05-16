@@ -14,6 +14,7 @@ import useDebaounce from './useDebaounce';
 import useClickOutside from './useClickOutside';
 import useColorScheme from './useColorScheme';
 import useEventListener from './useEventListener';
+import useFullscreen from './useFullscreen';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -35,6 +36,7 @@ export {
   useClickOutside,
   useColorScheme,
   useEventListener,
+  useFullscreen,
   isEmpty,
   uniqueArray,
   uniqueKey,
