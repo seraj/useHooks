@@ -23,6 +23,7 @@ import useScrollIntoView from './useScrollIntoView/useScrollIntoView';
 import useScrollLock from './useScrollLock/useScrollLock';
 import useClipboard from './useClipboard';
 import useHash from './useHash';
+import useNetwork from './useNetwork';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -53,6 +54,7 @@ export {
   useScrollLock,
   useClipboard,
   useHash,
+  useNetwork,
   isEmpty,
   uniqueArray,
   uniqueKey,
