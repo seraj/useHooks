@@ -25,6 +25,7 @@ import useClipboard from './useClipboard';
 import useHash from './useHash';
 import useNetwork from './useNetwork';
 import useOs from './useOs';
+import usePageLeave from './usePageLeave';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -56,6 +57,7 @@ export {
   useClipboard,
   useHash,
   useOs,
+  usePageLeave,
   useNetwork,
   isEmpty,
   uniqueArray,
