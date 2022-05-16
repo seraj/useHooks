@@ -26,6 +26,8 @@ import useHash from './useHash';
 import useNetwork from './useNetwork';
 import useOs from './useOs';
 import usePageLeave from './usePageLeave';
+import useWindowScroll from './useWindowScroll';
+import useDidUpdate from './useDidUpdate';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -56,9 +58,11 @@ export {
   useScrollLock,
   useClipboard,
   useHash,
+  useNetwork,
   useOs,
   usePageLeave,
-  useNetwork,
+  useWindowScroll,
+  useDidUpdate,
   isEmpty,
   uniqueArray,
   uniqueKey,
