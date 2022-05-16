@@ -17,6 +17,7 @@ import useEventListener from './useEventListener';
 import useFullscreen from './useFullscreen';
 import useHotkeys from './useHotkeys';
 import useHover from './useHover';
+import useWindowEvent from './useWindowEvent';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -41,6 +42,7 @@ export {
   useFullscreen,
   useHotkeys,
   useHover,
+  useWindowEvent,
   isEmpty,
   uniqueArray,
   uniqueKey,
