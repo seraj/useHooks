@@ -24,6 +24,7 @@ import useScrollLock from './useScrollLock/useScrollLock';
 import useClipboard from './useClipboard';
 import useHash from './useHash';
 import useNetwork from './useNetwork';
+import useOs from './useOs';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -54,6 +55,7 @@ export {
   useScrollLock,
   useClipboard,
   useHash,
+  useOs,
   useNetwork,
   isEmpty,
   uniqueArray,
