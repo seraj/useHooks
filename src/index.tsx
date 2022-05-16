@@ -19,7 +19,7 @@ import useHotkeys from './useHotkeys';
 import useHover from './useHover';
 import useWindowEvent from './useWindowEvent';
 import useReducedMotion from './useReducedMotion';
-
+import useScrollIntoView from './useScrollIntoView/useScrollIntoView';
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
 import isEqual from './isEqual';
@@ -45,6 +45,7 @@ export {
   useHover,
   useWindowEvent,
   useReducedMotion,
+  useScrollIntoView,
   isEmpty,
   uniqueArray,
   uniqueKey,
