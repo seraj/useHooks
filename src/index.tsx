@@ -13,6 +13,7 @@ import useToggle, { useBooleanToggle } from './useToggle';
 import useDebaounce from './useDebaounce';
 import useClickOutside from './useClickOutside';
 import useColorScheme from './useColorScheme';
+import useEventListener from './useEventListener';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -33,6 +34,7 @@ export {
   useDebaounce,
   useClickOutside,
   useColorScheme,
+  useEventListener,
   isEmpty,
   uniqueArray,
   uniqueKey,
