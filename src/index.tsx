@@ -20,6 +20,8 @@ import useHover from './useHover';
 import useWindowEvent from './useWindowEvent';
 import useReducedMotion from './useReducedMotion';
 import useScrollIntoView from './useScrollIntoView/useScrollIntoView';
+import useScrollLock from './useScrollLock/useScrollLock';
+
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
 import isEqual from './isEqual';
@@ -46,6 +48,7 @@ export {
   useWindowEvent,
   useReducedMotion,
   useScrollIntoView,
+  useScrollLock,
   isEmpty,
   uniqueArray,
   uniqueKey,
