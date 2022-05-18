@@ -28,6 +28,7 @@ import usePageLeave from './usePageLeave';
 import useWindowScroll from './useWindowScroll';
 import useDidUpdate from './useDidUpdate';
 import useIsomorphicEffect from './useIsomorphicEffect';
+import useId from './useId';
 
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
@@ -68,6 +69,7 @@ export {
   useWindowScroll,
   useDidUpdate,
   useIsomorphicEffect,
+  useId,
   isEmpty,
   uniqueArray,
   uniqueKey,
