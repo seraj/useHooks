@@ -32,6 +32,11 @@ import useIsomorphicEffect from './useIsomorphicEffect';
 import uniqueKey from './uniqueKey';
 import persianSort from './persianSort';
 import isEqual from './isEqual';
+import lowerFirst from './lowerFirst';
+import upperFirst from './upperFirst';
+import randomId from './randomId';
+import range from './range';
+import shallowEqual from './shallowEqual';
 
 export {
   useDarkMode,
@@ -68,4 +73,9 @@ export {
   uniqueKey,
   persianSort,
   isEqual,
+  lowerFirst,
+  upperFirst,
+  randomId,
+  range,
+  shallowEqual,
 };
