@@ -23,7 +23,6 @@ import useScrollIntoView from './useScrollIntoView/useScrollIntoView';
 import useScrollLock from './useScrollLock/useScrollLock';
 import useClipboard from './useClipboard';
 import useHash from './useHash';
-import useNetwork from './useNetwork';
 import useOs from './useOs';
 import usePageLeave from './usePageLeave';
 import useWindowScroll from './useWindowScroll';
@@ -58,7 +57,6 @@ export {
   useScrollLock,
   useClipboard,
   useHash,
-  useNetwork,
   useOs,
   usePageLeave,
   useWindowScroll,
