@@ -1,83 +1,41 @@
-import useDarkMode from './useDarkMode';
-import useLocalStorage from './useLocalStorage';
-import useMedia from './useMedia';
-import useLockBodyScroll from './useLoclBodyScroll';
-import useTheme from './useTheme';
-import useWindowSize from './useWindowSize';
-import useDocVisible from './useDocVisible';
-import isEmpty from './isEmpty';
-import uniqueArray from './uniqueArray';
-import useMediaQuery from './useMediaQuery';
-import useInterval from './useInterval';
-import useToggle, { useBooleanToggle } from './useToggle';
-import useDebaounce from './useDebaounce';
-import useClickOutside from './useClickOutside';
-import useColorScheme from './useColorScheme';
-import useEventListener from './useEventListener';
-import useFullscreen from './useFullscreen';
-import useHotkeys from './useHotkeys';
-import useHover from './useHover';
-import useWindowEvent from './useWindowEvent';
-import useReducedMotion from './useReducedMotion';
-import useScrollIntoView from './useScrollIntoView/useScrollIntoView';
-import useScrollLock from './useScrollLock/useScrollLock';
-import useClipboard from './useClipboard';
-import useHash from './useHash';
-import useOs from './useOs';
-import usePageLeave from './usePageLeave';
-import useWindowScroll from './useWindowScroll';
-import useDidUpdate from './useDidUpdate';
-import useIsomorphicEffect from './useIsomorphicEffect';
-import useId from './useId';
+export { default as asuseDarkMode } from './useDarkMode';
+export { default as asuseLocalStorage } from './useLocalStorage';
+export { default as asuseMedia } from './useMedia';
+export { default as asuseLockBodyScroll } from './useLoclBodyScroll';
+export { default as asuseTheme } from './useTheme';
+export { default as asuseWindowSize } from './useWindowSize';
+export { default as asuseDocVisible } from './useDocVisible';
+export { default as asisEmpty } from './isEmpty';
+export { default as asuniqueArray } from './uniqueArray';
+export { default as asuseMediaQuery } from './useMediaQuery';
+export { default as asuseInterval } from './useInterval';
+export { default as useToggle } from './useToggle';
+export { default as asuseDebaounce } from './useDebaounce';
+export { default as asuseClickOutside } from './useClickOutside';
+export { default as asuseColorScheme } from './useColorScheme';
+export { default as asuseEventListener } from './useEventListener';
+export { default as asuseFullscreen } from './useFullscreen';
+export { default as asuseHotkeys } from './useHotkeys';
+export { default as asuseHover } from './useHover';
+export { default as asuseWindowEvent } from './useWindowEvent';
+export { default as asuseReducedMotion } from './useReducedMotion';
+export { default as asuseScrollIntoView } from './useScrollIntoView/useScrollIntoView';
+export { default as asuseScrollLock } from './useScrollLock/useScrollLock';
+export { default as asuseClipboard } from './useClipboard';
+export { default as asuseHash } from './useHash';
+export { default as asuseOs } from './useOs';
+export { default as asusePageLeave } from './usePageLeave';
+export { default as asuseWindowScroll } from './useWindowScroll';
+export { default as asuseDidUpdate } from './useDidUpdate';
+export { default as asuseIsomorphicEffect } from './useIsomorphicEffect';
+export { default as asuseId } from './useId';
+export { default as useFavicon } from './useFavicon';
 
-import uniqueKey from './uniqueKey';
-import persianSort from './persianSort';
-import isEqual from './isEqual';
-import lowerFirst from './lowerFirst';
-import upperFirst from './upperFirst';
-import randomId from './randomId';
-import range from './range';
-import shallowEqual from './shallowEqual';
-
-export {
-  useDarkMode,
-  useLocalStorage,
-  useMedia,
-  useLockBodyScroll,
-  useTheme,
-  useWindowSize,
-  useDocVisible,
-  useMediaQuery,
-  useInterval,
-  useToggle,
-  useBooleanToggle,
-  useDebaounce,
-  useClickOutside,
-  useColorScheme,
-  useEventListener,
-  useFullscreen,
-  useHotkeys,
-  useHover,
-  useWindowEvent,
-  useReducedMotion,
-  useScrollIntoView,
-  useScrollLock,
-  useClipboard,
-  useHash,
-  useOs,
-  usePageLeave,
-  useWindowScroll,
-  useDidUpdate,
-  useIsomorphicEffect,
-  useId,
-  isEmpty,
-  uniqueArray,
-  uniqueKey,
-  persianSort,
-  isEqual,
-  lowerFirst,
-  upperFirst,
-  randomId,
-  range,
-  shallowEqual,
-};
+export { default as asuniqueKey } from './uniqueKey';
+export { default as aspersianSort } from './persianSort';
+export { default as asisEqual } from './isEqual';
+export { default as aslowerFirst } from './lowerFirst';
+export { default as asupperFirst } from './upperFirst';
+export { default as asrandomId } from './randomId';
+export { default as asrange } from './range';
+export { default as asshallowEqual } from './shallowEqual';
